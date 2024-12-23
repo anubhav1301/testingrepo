@@ -4,8 +4,6 @@
 	<property name="testproject.home" value=".."/>
 	<property name="testproject.results" value="../ANT/Results"/>
 	<property name="testproject.license" value="Azure/.licenses/"/>
-	<property name="provar.username" value="${env.PROVAR_sf_Admin}"/>
-        <property name="provar.password" value="${env.PROVAR_sf_Admin_password}"/>
 	<property name="secrets.password" value="${env.ProvarSecretsPassword}"/>
 	<property name="testenvironment.secretspassword" value="${env.ProvarSecretsPassword_EnvName}"/>
 	
