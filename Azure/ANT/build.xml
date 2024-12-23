@@ -1,7 +1,7 @@
 <project default="runtests">
 	<property environment="env"/>
 	<property name="provar.home" value="C:/Program Files/Provar(2.14.2)/"/>
-	<property name="testproject.home" value="Azure/"/>
+	<property name="testproject.home" value=".."/>
 	<property name="testproject.results" value="../ANT/Results"/>
 	<property name="testproject.license" value="Azure/.licenses/"/>
 	<property name="provar.username" value="${env.PROVAR_sf_Admin}"/>
