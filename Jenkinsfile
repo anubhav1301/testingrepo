@@ -10,7 +10,7 @@ pipeline {
         
         stage('Run Provar Tests') {
             steps {
-                bat 'ant -f build.xml runtests'
+                bat 'ant -f Azure/ANT/build.xml runtests'
             }
         }
     }
