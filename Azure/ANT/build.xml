@@ -8,16 +8,12 @@
         <property name="provar.password" value="${env.PROVAR_sf_Admin_password}"/>
 	<property name="secrets.password" value="${env.ProvarSecretsPassword}"/>
 	<property name="testenvironment.secretspassword" value="${env.ProvarSecretsPassword_EnvName}"/>
-
-	<target name="create-dirs">
-          <mkdir dir="${testproject.home}/bin"/>
-        </target>
 	
 	<taskdef name="Provar-Compile" classname="com.provar.testrunner.ant.CompileTask" classpath="${provar.home}/ant/ant-provar.jar"/>
 	<taskdef name="Run-Test-Case" classname="com.provar.testrunner.ant.RunnerTask" classpath="${provar.home}/ant/ant-provar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-sf.jar"/>
 	<taskdef name="Test-Cycle-Report" classname="com.provar.testrunner.ant.TestCycleReportTask" classpath="${provar.home}/ant/ant-provar.jar;${provar.home}/ant/ant-provar-bundled.jar;${provar.home}/ant/ant-provar-sf.jar"/>
 	
-	<target name="runtests" depends="create-dirs">
+	<target name="runtests" >
 	
 		<Provar-Compile provarHome="${provar.home}" projectPath="${testproject.home}"/>
 	
