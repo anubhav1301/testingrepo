@@ -1,7 +1,6 @@
-
 pipeline {
     agent any
-    
+
     stages {
         stage('Checkout') {
             steps {
@@ -11,9 +10,8 @@ pipeline {
         
         stage('Run Provar Tests') {
             steps {
-                sh 'ant -f build.xml runtests'
+                bat 'ant -f build.xml runtests'
             }
         }
     }
-    
 }
