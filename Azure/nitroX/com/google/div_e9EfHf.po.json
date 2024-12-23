@@ -1,0 +1,34 @@
+{
+  "componentId" : "5133c7a7-c8db-4ad4-93c0-90d870fb0d0f",
+  "name" : "/com/google/div_e9EfHf",
+  "tagName" : "div",
+  "qualifier" : ".[@jsmodel=' ROaKxe']",
+  "parameters" : [ {
+    "name" : "jsmodel",
+    "value" : " ROaKxe",
+    "comparisonType" : "equals",
+    "default" : true
+  } ],
+  "type" : "Page",
+  "pageStructureElement" : true,
+  "fieldDetailsElement" : false,
+  "elements" : [ {
+    "componentId" : "97e4befe-afe2-4804-88f5-6d0b003635ab",
+    "type" : "component::a4b4a253-2c0c-4ca8-be55-204f1f9f2d53",
+    "label" : "UniversityOfProvar",
+    "parameters" : [ {
+      "name" : "href",
+      "value" : "https://provar.me/",
+      "comparisonType" : "equals",
+      "locatable" : true,
+      "default" : false
+    }, {
+      "name" : "text",
+      "value" : "University of ProvarUniversity of Provarhttps://provar.me",
+      "comparisonType" : "equals",
+      "locatable" : true,
+      "default" : true
+    } ],
+    "elements" : [ ]
+  } ]
+}
